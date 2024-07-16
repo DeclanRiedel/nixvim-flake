@@ -19,7 +19,10 @@
 
         csharp-ls = { enable = true; };
 
-        omnisharp = { enable = true; };
+        omnisharp = { 
+          enable = true;
+          settings.enableRoslynAnalyzers = true;
+          };
 
         ruff.enable = true;
 
